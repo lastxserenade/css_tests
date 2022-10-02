@@ -96,7 +96,7 @@ when focused to keep poster on screen
 #tvRecommendedPage .cardText-secondary, 
 #moviesPage .cardText-secondary{
     position:relative;/*used to center element*/
-    max-width:40%;/*keeps bounding box closer to text(at current font-size)*/
+    max-width:45%;/*keeps bounding box closer to text(at current font-size)*/
     margin-left: auto;/*used to center element*/
     margin-right: auto;/*used to center element*/
     border-radius:.2em;/*rounded corners*/
