@@ -1,0 +1,158 @@
+.itemsContainer-tv > .portraitCard, 
+.itemsContainer-tv > .overflowPortraitCard,
+.itemsContainer-tv > .squareCard,
+.itemsContainer-tv > .overflowSquareCard{ 
+width:10%;}
+.itemsContainer-tv > .overflowBackdropCard,
+.itemsContainer-tv > .backdropCard {
+width:20%;}
+.sectionTitle-cards {
+    margin: 0;
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+.backgroundContainer{
+backdrop-filter:blur(6px);
+}
+
+/*
+set padding around library view and 
+hides right hand vertical nav
+
+gaps on side should accomidate poster scaling 
+when focused to keep poster on screen
+*/
+#tvRecommendedPage .alphaPicker-fixed.alphaPicker-tv {
+      display: none;
+}
+#tvRecommendedPage .cardBox-bottompadded,
+#moviesPage .cardBox-bottompadded{
+      margin-bottom: 10px !important;
+}
+#tvRecommendedPage .padded-bottom,
+#moviesPage .padded-bottom{
+      padding-bottom: 0em;
+}
+#tvRecommendedPage .padded-top,
+#moviesPage .padded-top{
+      padding-top: 0em;
+}
+#tvRecommendedPage .padded-right,
+#moviesPage .padded-right{
+      padding-right: 2vw;
+}
+#tvRecommendedPage .padded-left,
+#moviesPage .padded-left{
+      padding-left: 2vw;
+}
+#tvRecommendedPage .padded-right-withalphapicker,
+#moviesPage .padded-right-withalphapicker{
+      padding-right: 2vw;
+}
+
+
+/*sets margin to zero around posters*/
+#tvRecommendedPage .cardBox, #moviesPage .cardBox{
+    margin:0!important;
+    margin-bottom:2em;
+}
+/*Resize poster on focus*/
+#tvRecommendedPage .card.show-animation:focus > .cardBox,
+#moviesPage .card.show-animation:focus > .cardBox {
+    -webkit-transform: scale(1.4);
+
+}
+
+/*Adjusts spacing and font styling on Title and Date*/
+#tvRecommendedPage .cardText.cardTextCentered,
+#moviesPage .cardText.cardTextCentered{
+    margin-bottom:1em;
+    color:#000;
+    text-shadow: 1px 1px #ddd0d066;
+}
+
+#tvRecommendedPage .cardText-first, 
+#moviesPage .cardText-first{
+    padding-top: 0em!important;/*gets rid of awkard spacing above title text*/
+    margin-top:-4em;/*brings text box up 4 rows text*/
+    width:85%;
+    margin-left: auto;/*used to center element*/
+    margin-right: auto;/*used to center element*/
+    border-radius:.2em;/*rounded corners*/
+    font-size:85%;
+}
+
+#tvRecommendedPage .cardText-secondary, 
+#moviesPage .cardText-secondary{
+    position:relative;/*used to center element*/
+    max-width:40%;/*keeps bounding box closer to text(at current font-size)*/
+    margin-left: auto;/*used to center element*/
+    margin-right: auto;/*used to center element*/
+    border-radius:.2em;/*rounded corners*/
+    font-size:55%}
+
+/*background color and blur of poster text*/
+#tvRecommendedPage .cardText.cardTextCentered.cardText-first,
+#tvRecommendedPage .cardText.cardTextCentered.cardText-secondary,
+#moviesPage .cardText.cardTextCentered.cardText-first,
+#moviesPage .cardText.cardTextCentered.cardText-secondary{
+    background-color :#ffffffc7;
+    backdrop-filter:blur(4px);
+}
+/*formatting Title text while card is in focus*/
+#tvRecommendedPage .card:focus .cardText.cardTextCentered.cardText-first, 
+#moviesPage .card:focus .cardText.cardTextCentered.cardText-first{
+    max-width:85%;
+    min-width:85%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow-wrap:anywhere;
+    white-space: pre-wrap;
+    position:absolute;/*used to center element*/
+    left: 50%;/*used to center element*/
+    transform: translate(-50%, 0);/*used to center element*/
+}
+
+#tvRecommendedPage .card:focus .cardText.cardTextCentered,
+#moviesPage .card:focus .cardText.cardTextCentered{
+    position:absolute;
+    min-height:1em;
+    max-height:5.5em;
+    font-size:70%;
+    margin-top:-60% !important;
+}
+/*hides dates on focus*/
+#tvRecommendedPage .card:focus  .cardText-secondary,
+#moviesPage  .card:focus .cardText-secondary{
+    display:none;
+}
+/*focused poster effects..turns off grayscale..currently no blur enabled*/
+#tvRecommendedPage .card:focus  .cardImageContainer.coveredImage.cardContent.lazy.blurhashed.lazy-image-fadein-fast,
+#moviesPage  .card:focus  .cardImageContainer.coveredImage.cardContent.lazy.blurhashed.lazy-image-fadein-fast{
+    filter:grayscale(0) blur(0px);
+
+}
+/*grayscale filter on all poster not in focus*/
+#tvRecommendedPage div.cardContent, 
+#moviesPage div.cardContent {
+    filter:grayscale(40%);
+    
+}
+
+/*imported top nav code...still need to tweak..just tried making it thinner so far*/
+.pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+  padding-top: 3em !important;
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color: rgba(0, 0, 0, 0);}
+.headerTabs.sectionTabs {font-size: 80%;}
+.pageTitle {margin-top: auto; margin-bottom: auto;}
+.emby-tab-button {padding: 0.75em 1.5em;}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);
+}
+
+
+#itemDetailPage .listItemImage-large{
+    width:16vw;
+    height:9vw;
+}
