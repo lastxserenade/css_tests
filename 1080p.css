@@ -8,7 +8,13 @@ h4,
 h5 {
 	font-family: "Montserrat", sans-serif;
 }
-
+:root {
+  --accent: rgb(1, 60, 79) ;
+  --accenttrans: rgba(1, 60, 79, 0) ;
+  --white: #ffffff;
+  --black: #000000;
+  --blacktrans: rgba(0, 0, 0, 0);
+}
 .itemsContainer-tv > .portraitCard, 
 .itemsContainer-tv > .overflowPortraitCard,
 .itemsContainer-tv > .squareCard,
@@ -167,3 +173,114 @@ when focused to keep poster on screen
     width:16vw;
     height:9vw;
 }
+
+
+
+
+
+
+/*Home page styling tests*/
+
+#indexPage .overflowBackdropCard .cardText.cardTextCentered{
+    position:relative;
+    margin-top:-55%;
+    color:#ececec;
+    background:linear-gradient(90deg, var(--black) 0%, var(--blacktrans) 100%, var(--blacktrans) 100%);
+    text-shadow: 1px 1px rgba(0, 0, 0, .71);
+    margin-bottom:55%;
+    backdrop-filter:blur(4px);
+    
+}
+#indexPage .overflowBackdropCard  .cardText.cardTextCentered.cardText-first{
+    background:linear-gradient(90deg, var(--accent) 0%, var(--accenttrans) 100%, var(--accenttrans) 100%);
+    text-shadow: 1px 1px rgba(0, 0, 0, .71);
+    padding-top:0!important;
+    text-align:left;
+    font-size:90%;
+    min-width:85%
+}
+#indexPage .overflowBackdropCard .cardText.cardTextCentered.cardText-secondary{
+    padding-left:1em;
+    text-align:left;
+    font-size:80%;
+    
+}
+#indexPage .overflowPortraitCard  .cardText.cardTextCentered {
+    position:relative;
+   
+    color:#ececec;
+    background:linear-gradient(90deg, var(--black) 0%, var(--blacktrans) 100%, var(--blacktrans) 100%);
+    text-shadow: 1px 1px rgba(0, 0, 0, .71);
+    backdrop-filter:blur(4px); 
+}
+#indexPage .overflowPortraitCard   .cardText.cardTextCentered.cardText-first{
+    background:linear-gradient(90deg, var(--accent) 0%, var(--accenttrans) 100%, var(--accenttrans) 100%);
+    text-shadow: 1px 1px rgba(0, 0, 0, .71);
+    padding-top:0!important;
+    text-align:left;
+    font-size:80%;
+    margin-top:-145%;
+    margin-bottom:145%;
+    
+}
+#indexPage .overflowPortraitCard  .cardText.cardTextCentered.cardText-secondary{
+    padding-left:1em;
+    text-align:left;
+    font-size:60%;
+        margin-top:-145%;
+    margin-bottom:145%;
+        min-width:85%
+}
+#indexPage .verticalSection{
+    overflow:visible
+}
+#indexPage .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground{
+    background-color:var(--accent);
+    border-top:1px inset rgb(0, 157, 207); 
+ 
+}
+#indexPage .itemProgressBar {
+  background: rgba(95, 95, 95, .8);
+  height: .75em;
+
+}
+#indexPage .padded-top-focusscale.padded-bottom-focusscale.emby-scroller{overflow:visible!important;}
+#indexPage .overflowPortraitCard:focus{
+    -webkit-transform: scale(1.25) translate(0em, 0.65em);
+    position:absolute;
+z-index:99;
+}
+#indexPage .overflowPortraitCard:focus  .cardText.cardTextCentered.cardText-first{
+position:absolute;
+overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow-wrap:anywhere;
+    white-space: pre-wrap;
+min-width:89.5%;
+    max-width:89.5%
+    
+}
+#indexPage .overflowPortraitCard:focus  .cardText.cardTextCentered.cardText-secondary{
+position:absolute;
+overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow-wrap:anywhere;
+    white-space: pre-wrap;
+margin-top:-4.5em;
+    min-width:88.5%;
+
+}
+
+#indexPage .sectionTitleContainer-cards{
+    margin-top:0em;
+    padding-top:0!important;
+    font-size:60%;
+}
+#indexPage .sectionTitle.sectionTitle-cards.padded-left{
+    margin-top:0em;
+        padding-top:0!important;
+    font-size:80%;
+}
+
