@@ -8,6 +8,7 @@ h4,
 h5 {
 	font-family: "Montserrat", sans-serif;
 }
+
 :root {
   --accent: rgb(1, 60, 79) ;
   --accenttrans: rgba(1, 60, 79, 0) ;
@@ -179,7 +180,18 @@ when focused to keep poster on screen
 
 
 
-/*Home page styling tests*/
+
+
+
+
+
+
+
+
+
+
+
+/*first tests of home page styling*/
 
 #indexPage .overflowBackdropCard .cardText.cardTextCentered{
     position:relative;
@@ -283,4 +295,3 @@ margin-top:-4.5em;
         padding-top:0!important;
     font-size:80%;
 }
-
