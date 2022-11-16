@@ -1,0 +1,904 @@
+  /*1440p next up Section1*/
+    .section1{
+    position:absolute;
+   /* background-color:#000c;   
+    backdrop-filter:blur(12px);
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    box-shadow:0 8px 12px #000000b0;*/
+    z-index:99;
+    top:3.2vh;
+    }
+
+.section1 .emby-scroller {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding-top:0;
+    padding-bottom:1.25vh;
+    width:96.6vw;
+    }
+
+.section1 .mediaSourceIndicator{
+    margin-top:0;
+    width:2vw;
+    height:2vw;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-radius: 1vh 0 1vh 0;
+    background-color:var(--accent50);
+    box-shadow:inset 2px 2px 1px 0 #ffffff80,
+                inset 12px 12px 18px 0 var(--accent);
+    text-shadow:2px 2px 2px #000c;
+    backdrop-filter:blur(4px);
+    z-index:0;
+    left:0;
+    top:0;
+}
+
+    .section1 .card  .playedIndicator{
+    background: transparent;
+    width: 18vw;
+    height:10.125vw;
+    border-radius:1vh ;
+    box-shadow: inset 2px 2px 1px 0 #ffffff80,
+                inset 12px 12px 18px 0 var(--accent);
+    color: #fff;
+    font-size: 88%;
+    font-weight: 500;
+    left: 0;
+    text-align: center;
+    top: 0;
+    vertical-align: middle;
+     z-index:999;
+}
+
+   .section1 .sectionTitleContainer-cards.sectionTitleTextButton>.sectionTitle{
+    margin:0;
+
+}
+.section1 .sectionTitleContainer-cards {
+    margin: 0;
+    padding-top: 0;
+    padding-left:1vw;
+    height:0;
+
+}
+
+.section1 .itemsContainer.scrollSlider.focuscontainer-x.animatedScrollX{
+    display: grid;
+        grid-template-columns: 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw 18vw;
+    gap: 0vh;
+    height:32.25vh;
+  /*  padding-top:4vh;*/
+    padding-left:0vw;
+    margin-bottom:-1.75vh;
+    }
+.section1 .overflowBackdropCard{
+    width:18vw;
+}
+
+.section1 .itemsContainer>.card>.cardBox {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section1 .cardBox-bottompadded {
+    margin-bottom: 0!important;
+}
+.section1 .cardBox:not(.visualCardBox) .cardPadder, .cardContent-shadow{
+    box-shadow:unset;
+}
+
+
+.section1 .cardText.cardTextCentered.cardText-first {
+    transform: translateY(-5.5vh);
+    overflow: hidden;
+    text-shadow: 2px 2px #000;
+    font-size:110%;
+    padding-top:0em!important;
+    background-color:#000000b0;
+    width:100%;
+    border-top:1px solid #fff6;
+    border-bottom:1px solid #fff6;
+    backdrop-filter:blur(4px);
+    padding-left:0;
+}
+.section1 .cardText-secondary {
+    transform: translateY(-5.5vh);
+    overflow: hidden;
+margin-bottom:-3vh;
+    padding-bottom:0.1em;
+    background-color:#000000b0;
+    width:100%;
+    border-top:1px solid #fff6;
+    border-bottom:1px solid #fff6;
+    backdrop-filter:blur(4px);
+    padding-left:0;
+}
+#indexPage .section1 .cardOverlayFab-primary:hover:not(:disabled) {
+    color: #00a4dc;
+    background-color: rgba(0, 164, 220, 0.2);
+}
+
+
+#indexPage .section1 .cardOverlayFab-primary {
+     font-size: 88%;
+    height: 3em;
+    left: 6.7vw;
+    transform:translate(50%, 50%);
+    margin-left: -1.5em;
+    margin-top: -1.5em;
+    padding: 0;
+    position: absolute;
+    top: .5vh;
+    width: 3em;
+} 
+
+.section1 .card:hover .cardTextCentered>.textActionButton{
+text-align:center;
+}
+
+.section1 .sectionTitleTextButton:not(.padded-left) {
+    padding: 0!important;
+    left: 97vw;
+    top:12vh;
+}
+
+
+.section1 [data-index="16"],
+    .section1 [data-index="17"],
+    .section1 [data-index="18"],
+    .section1 [data-index="19"],
+    .section1 [data-index="20"],
+    .section1 [data-index="21"],
+    .section1 [data-index="22"],
+    .section1 [data-index="23"]{display:none;}
+.section1 .cardTextCentered>.textActionButton{
+    text-align:left;
+}
+
+.section1 [data-index="0"]{
+    margin-left:.25vw;
+}
+.section1 [data-index="1"]{
+    margin-left:-13vw;
+}
+.section1 [data-index="2"]{
+    margin-left:-26vw
+}
+.section1 [data-index="3"]{
+    margin-left:-39vw
+}
+.section1 [data-index="4"]{
+    margin-left:-52vw
+}
+.section1 [data-index="5"]{
+    margin-left:-65vw
+}
+.section1 [data-index="6"]{
+    margin-left:-78vw
+}
+.section1 [data-index="7"]{
+    margin-left: -91vw
+}
+.section1 [data-index="8"]{
+    margin-left:-103vw
+}
+.section1 [data-index="9"]{
+    margin-left:-115vw
+}
+.section1 [data-index="10"]{
+    margin-left:-127vw
+}
+.section1 [data-index="11"]{
+    margin-left:-139vw
+}
+.section1 [data-index="12"]{
+    margin-left:-151vw
+}
+.section1 [data-index="13"]{
+    margin-left:-164vw
+}
+.section1 [data-index="14"]{
+    margin-left:-170.25vw;
+    z-index:9;
+}
+.section1 [data-index="15"]{
+    margin-left:-194vw;
+    z-index:8;
+}
+    .section1 .card{
+border-radius:1vh;
+  transform:perspective(25vw) rotateY(40deg);
+    padding-top: 3.25vh;
+}
+.section1 .card:hover { /* 6 */
+  transform:unset;
+    scale:130%;
+    z-index:99;
+border-radius:1vh;
+}
+.section1 .card[data-index="0"]:hover{
+   margin-left:2.85vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="1"]{
+   margin-left:5vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="2"]{
+   margin-left:-3vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="3"]{
+   margin-left:-12vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="4"]{
+   margin-left:-21vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="5"]{
+   margin-left:-30vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="6"]{
+   margin-left:-39vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="7"]{
+   margin-left:-52vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="8"]{
+   margin-left:-66vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="9"]{
+   margin-left:-83vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="10"]{
+   margin-left:-100.5vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="11"]{
+   margin-left:-118vw;;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="12"]{
+   margin-left:-135.5vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="0"]:hover ~
+[data-index="15"]{
+   margin-left:-188.5vw;
+    z-index:8
+}
+
+    
+ 
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+.section1 .card[data-index="1"]:hover {
+   margin-left:-12vw;
+}
+
+.section1 .card[data-index="1"]:hover ~
+[data-index="2"]{
+   margin-left:-9.5vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="3"]{
+   margin-left:-19vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="4"]{
+   margin-left:-28vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="5"]{
+   margin-left:-37vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="6"]{
+   margin-left:-46vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="7"]{
+   margin-left:-57vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="8"]{
+   margin-left:-69vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="9"]{
+   margin-left:-83vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="10"]{
+   margin-left:-100.5vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="11"]{
+   margin-left:-118vw;;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="12"]{
+   margin-left:-135.5vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="1"]:hover ~
+[data-index="15"]{
+   margin-left:-188.50vw;
+    z-index:8
+}
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+ .section1 .card[data-index="2"]:hover {
+   margin-left:-26vw;
+}
+
+.section1 .card[data-index="2"]:hover ~
+[data-index="3"]{
+   margin-left:-23.5vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="4"]{
+   margin-left:-31vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="5"]{
+   margin-left:-40vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="6"]{
+   margin-left:-49vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="7"]{
+   margin-left:-60vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="8"]{
+   margin-left:-72vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="9"]{
+   margin-left:-84vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="10"]{
+   margin-left:-100.5vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="11"]{
+   margin-left:-118vw;;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="12"]{
+   margin-left:-135.5vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="2"]:hover ~
+[data-index="15"]{
+   margin-left:-188.50vw;
+    z-index:8
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  .section1 .card[data-index="3"]:hover {
+   margin-left:-39vw;
+}
+
+
+
+.section1 .card[data-index="3"]:hover ~
+[data-index="4"]{
+   margin-left:-36.5vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="5"]{
+   margin-left:-44vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="6"]{
+   margin-left:-53vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="7"]{
+   margin-left:-64vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="8"]{
+   margin-left:-75vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="9"]{
+   margin-left:-87vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="10"]{
+   margin-left:-101vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="11"]{
+   margin-left:-118vw;;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="12"]{
+   margin-left:-135.5vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="3"]:hover ~
+[data-index="15"]{
+   margin-left:-188.5vw;
+    z-index:8
+}      
+    
+    
+    
+    
+    
+        
+  .section1 .card[data-index="4"]:hover {
+   margin-left:-53vw;
+}
+
+
+
+.section1 .card[data-index="4"]:hover ~
+[data-index="5"]{
+   margin-left:-50.5vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="6"]{
+   margin-left:-58vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="7"]{
+   margin-left:-68vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="8"]{
+   margin-left:-79vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="9"]{
+   margin-left:-90vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="10"]{
+   margin-left:-103vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="11"]{
+   margin-left:-118vw;;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="12"]{
+   margin-left:-135.5vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="4"]:hover ~
+[data-index="15"]{
+   margin-left:-188.5vw;
+    z-index:8
+}      
+    
+    
+    
+    
+    
+    
+    
+      .section1 .card[data-index="5"]:hover {
+   margin-left:-66vw;
+}
+
+
+
+
+.section1 .card[data-index="5"]:hover ~
+[data-index="6"]{
+   margin-left:-63.5vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="7"]{
+   margin-left:-73vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="8"]{
+   margin-left:-83vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="9"]{
+   margin-left:-94vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="10"]{
+   margin-left:-106vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="11"]{
+   margin-left:-120.5vw;;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="12"]{
+   margin-left:-136vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="5"]:hover ~
+[data-index="15"]{
+   margin-left:-188.5vw;
+    z-index:8
+}      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.section1 .card[data-index="6"]:hover {
+   margin-left:-79vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="7"]{
+   margin-left:-76.5vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="8"]{
+   margin-left:-87vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="9"]{
+   margin-left:-98vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="10"]{
+   margin-left:-109vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="11"]{
+   margin-left:-122.5vw;;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="12"]{
+   margin-left:-137.5vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="13"]{
+   margin-left:-153vw;
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="6"]:hover ~
+[data-index="15"]{
+   margin-left:-188.5vw;
+    z-index:8
+}      
+   
+    
+    
+    
+      
+    
+.section1 .card[data-index="7"]:hover {
+   margin-left:-92.5vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="8"]{
+   margin-left:-90vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="9"]{
+   margin-left:-99.5vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="10"]{
+   margin-left:-110.5vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="11"]{
+   margin-left:-123.5vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="12"]{
+   margin-left:-139vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="13"]{
+   margin-left:-155vw;
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="7"]:hover ~
+[data-index="15"]{
+   margin-left:-189vw;
+    z-index:8
+}    
+    
+    
+    
+    
+    
+        
+.section1 .card[data-index="8"]:hover {
+   margin-left:-105.5vw;
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="9"]{
+   margin-left:-103vw;
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="10"]{
+   margin-left:-113vw;
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="11"]{
+   margin-left:-125vw;;
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="12"]{
+   margin-left:-140.5vw;
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="13"]{
+   margin-left:-156vw;
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="8"]:hover ~
+[data-index="15"]{
+   margin-left:-190vw;
+    z-index:8
+}  
+    
+    
+    
+    
+    .section1 .card[data-index="9"]:hover {
+   margin-left:-117.5vw;
+}
+
+.section1 .card[data-index="9"]:hover ~
+[data-index="10"]{
+   margin-left:-115vw;
+}
+.section1 .card[data-index="9"]:hover ~
+[data-index="11"]{
+   margin-left:-126vw;;
+}
+.section1 .card[data-index="9"]:hover ~
+[data-index="12"]{
+   margin-left:-141vw;
+}
+.section1 .card[data-index="9"]:hover ~
+[data-index="13"]{
+   margin-left:-156vw;
+}
+.section1 .card[data-index="9"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="9"]:hover ~
+[data-index="15"]{
+   margin-left:-190vw;
+    z-index:8
+}   
+    
+    
+    
+        .section1 .card[data-index="10"]:hover {
+   margin-left:-129.5vw;
+}
+
+
+.section1 .card[data-index="10"]:hover ~
+[data-index="11"]{
+   margin-left:-127vw;;
+}
+.section1 .card[data-index="10"]:hover ~
+[data-index="12"]{
+   margin-left:-139vw;
+}
+.section1 .card[data-index="10"]:hover ~
+[data-index="13"]{
+   margin-left:-155vw;
+}
+.section1 .card[data-index="10"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="10"]:hover ~
+[data-index="15"]{
+   margin-left:-189.5vw;
+    z-index:8
+}   
+    
+    
+    
+    
+    
+    
+            .section1 .card[data-index="11"]:hover {
+   margin-left:-141.5vw;
+}
+
+
+
+.section1 .card[data-index="11"]:hover ~
+[data-index="12"]{
+   margin-left:-139vw;
+}
+.section1 .card[data-index="11"]:hover ~
+[data-index="13"]{
+   margin-left:-155vw;
+}
+.section1 .card[data-index="11"]:hover ~
+[data-index="14"]{
+   margin-left:-170vw;
+    z-index:9
+}
+.section1 .card[data-index="11"]:hover ~
+[data-index="15"]{
+   margin-left:-189.5vw;
+    z-index:8
+}   
+    
+    
+    
+                .section1 .card[data-index="12"]:hover {
+   margin-left:-153.5vw;
+}
+
+
+.section1 .card[data-index="12"]:hover ~
+[data-index="13"]{
+   margin-left:-151vw;
+}
+.section1 .card[data-index="12"]:hover ~
+[data-index="14"]{
+   margin-left:-164vw;
+    z-index:9
+}
+.section1 .card[data-index="12"]:hover ~
+[data-index="15"]{
+   margin-left:-184vw;
+    z-index:8
+}   
+    
+    
+                    .section1 .card[data-index="13"]:hover {
+   margin-left:-165.5vw;
+}
+
+
+.section1 .card[data-index="13"]:hover ~
+[data-index="14"]{
+   margin-left:-158.5vw;
+    z-index:9
+}
+.section1 .card[data-index="13"]:hover ~
+[data-index="15"]{
+   margin-left:-181vw;
+    z-index:8
+}   
+    
+    
+    
+                        .section1 .card[data-index="14"]:hover {
+   margin-left:-176.25vw;
+}
+
+
+
+.section1 .card[data-index="14"]:hover ~
+[data-index="15"]{
+   margin-left:-199.25vw;
+    z-index:8
+}   
+                            .section1 .card[data-index="15"]:hover {
+   margin-left:-196.5vw;
+}
