@@ -96,7 +96,8 @@
 
 .section1 .card:hover > .cardText.cardTextCentered.cardText-first
 .section1 .card:hover > .cardText.cardTextCentered.cardText-secondary{
-     backdrop-filter:blur(4px); 
+     backdrop-filter:blur(10px); 
+   transition: .5s;
 }
   .section1 .cardText.cardTextCentered.cardText-first {
     transform: translateY(-5.5vh);
