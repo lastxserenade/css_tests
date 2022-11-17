@@ -109,6 +109,7 @@
     border-top:1px solid #fff6;
     border-bottom:1px solid #fff6;
     padding-left:0;
+        backdrop-filter:blur(0px);
 }
 .section1 .cardText-secondary {
     transform: translateY(-5.5vh);
@@ -119,7 +120,7 @@ margin-bottom:-3vh;
     width:100%;
     border-top:1px solid #fff6;
     border-bottom:1px solid #fff6;
-
+    backdrop-filter:blur(0px);
     padding-left:0;
 }
 #indexPage .section1 .cardOverlayFab-primary:hover:not(:disabled) {
