@@ -94,8 +94,11 @@
     box-shadow:unset;
 }
 
-
-.section1 .cardText.cardTextCentered.cardText-first {
+.section1 .card:hover > .cardText.cardTextCentered.cardText-first
+.section1 .card:hover > .cardText.cardTextCentered.cardText-secondary{
+     backdrop-filter:blur(4px); 
+}
+  .section1 .cardText.cardTextCentered.cardText-first {
     transform: translateY(-5.5vh);
     overflow: hidden;
     text-shadow: 2px 2px #000;
@@ -105,7 +108,6 @@
     width:100%;
     border-top:1px solid #fff6;
     border-bottom:1px solid #fff6;
-    backdrop-filter:blur(4px);
     padding-left:0;
 }
 .section1 .cardText-secondary {
@@ -117,7 +119,7 @@ margin-bottom:-3vh;
     width:100%;
     border-top:1px solid #fff6;
     border-bottom:1px solid #fff6;
-    backdrop-filter:blur(4px);
+
     padding-left:0;
 }
 #indexPage .section1 .cardOverlayFab-primary:hover:not(:disabled) {
